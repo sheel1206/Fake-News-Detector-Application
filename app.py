@@ -31,7 +31,7 @@ if nav == "HOME":
 
     st.header("Many a times these days we find ourselves caught up with misinformation due to coming in touch with fake news on the internet. This application will help you to stay away from such scams. Hope you find it useful. Thanks for using!")
     st.subheader("This video shows the results of a research conducted by MIT, showing the spread and impact of FAKE NEWS!!")
-    video_file = open('images//video.mp4', 'rb')
+    video_file = open('images//Video.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
     graph = st.selectbox("*DO YOU WANNA SEE A VISUAL REPRESENTATION OF OUR DATASET ?*", ["Yes", "No"])
