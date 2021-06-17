@@ -17,7 +17,7 @@ import keras
 from keras.preprocessing import text,sequence
 import dill
 
-X = []
+X = np.array([0])
 voc_size = 10000
 sent_length= 50
 model = keras.models.load_model('model/model.h5')
@@ -50,6 +50,7 @@ if nav == "HOME":
 elif nav == "CHECK YOUR NEWS":
     st.header("CHECK YOUR NEWS HERE!")
     news_title = st.text_area('Enter your news title below')
+    X = list()
     X.append(news_title)
 
 tokenizer = open('model/tokenizer.pkl', 'rb')
