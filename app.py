@@ -53,14 +53,14 @@ elif nav == "CHECK YOUR NEWS":
     news_title = st.text_area('Enter your news title below')
     X = list()
     X.append(news_title)
+def predict():
+    tokenizer = open('model/tokenizer.pkl', 'rb')
+    tokenized = joblib.load(tokenizer)
+    max_len = 300
+    tokenized_pred = tokenized.texts_to_sequences(X)
+    X = sequence.pad_sequences(tokenized_pred, maxlen=max_len)
 
-tokenizer = open('model/tokenizer.pkl', 'rb')
-tokenized = joblib.load(tokenizer)
-
-max_len = 300
-tokenized_pred = tokenized.texts_to_sequences(X)
-X = sequence.pad_sequences(tokenized_pred, maxlen=max_len)
-
+predict()
 prediction = model.predict_classes(X)
 
     
