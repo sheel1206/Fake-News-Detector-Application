@@ -35,18 +35,6 @@ if nav == "HOME":
     video_file = open('images//Video.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
-    graph = st.selectbox("*DO YOU WANNA SEE A VISUAL REPRESENTATION OF OUR DATASET ?*", ["Yes", "No"])
-
-    if graph == "Yes":
-       chart_data = pd.DataFrame(
-       [0,1,0,0,1],
-       ['News1', 'News2', 'News3', 'News4', 'News5'])
-       st.bar_chart(chart_data)
-       st.write("Here 1 means the news is fake, 0 means news is real")
-       st.write("This bargraph is just a basic representation of our dataset")
-
-    if graph == "No":
-        st.subheader("OKAY SO GO TRY OUR MODEL OUT!")
 
 elif nav == "CHECK YOUR NEWS":
     st.header("CHECK YOUR NEWS HERE!")
