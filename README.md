@@ -49,45 +49,6 @@ streamlit run app.py
 ```bash
 https://fakenewsds.herokuapp.com/
 ```
-## Contributors
-
-<table>
-<tr align="center">
-
-
-<td>
-
-PALAK AGGARWAL
-
-<p align="center">
-<img src = "https://raw.githubusercontent.com/Palak-Aggarwal1234/Club-Darshan/master/images/palak.jpeg"  height="120" alt="https://raw.githubusercontent.com/Palak-Aggarwal1234/Club-Darshan/master/images/palak.jpeg">
-</p>
-<p align="center">
-<a href = "https://github.com/Palak-Aggarwal1234"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/palak-aggarwal-96366a18b/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-
-<td>
-
-SHEEL PATEL
-
-<p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/Conjexure-A-Web-App-for-Stock-Market-Forecasting/blob/620c84f290348f959b448c075168cf1d613c32d0/Images/Sheel.png"  height="120" alt="https://github.com/Data-Science-Community-SRM/Conjexure-A-Web-App-for-Stock-Market-Forecasting/blob/620c84f290348f959b448c075168cf1d613c32d0/Images/Sheel.png">
-</p>
-<p align="center">
-<a href = "https://github.com/sheel1206"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/sheel1206/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-
-
-
 
 </tr>
   </table>
